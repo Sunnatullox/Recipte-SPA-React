@@ -1,0 +1,43 @@
+.nav
+{
+    padding:0 1rem;
+}
+
+.content
+{
+min-height: calc(100vh - 234px - 0px);
+padding: 1.5rem 0;
+}
+
+.list
+{
+    display: grid;
+    grid-template-columns: repeat(aouto-fill, minmax(250pxm 1fr));
+    gap: 1;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+}
+.card-body
+{
+    flex-grow: 1;
+}
+
+img{
+    max-width: 100%;
+    margin-top: 1rem;
+}
+.embed-responsive-item
+{
+    width: 550px;
+    height: 316px;
+}
+@media (max-width:768px) {
+    .embed-responsive-item
+{
+    width: 304px;
+    height: 175px;
+}
+}
